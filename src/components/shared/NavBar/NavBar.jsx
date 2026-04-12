@@ -2,6 +2,7 @@ import React from "react";
 import MyLinks from "./LinksComponent/MyLinks";
 import navLogo from "@/assets/images/logo.png";
 import Image from "next/image";
+import { IoLogoGithub } from "react-icons/io";
 
 const NavBar = () => {
   const links = [
@@ -40,8 +41,8 @@ const NavBar = () => {
               {item.text}
             </MyLinks>
           ))}
-        </div>
-        <button className="btn bg-purple-500">Contribute</button>
+        </div >
+        <button className="btn bg-purple-500 text-white "><IoLogoGithub></IoLogoGithub> Contribute</button>
       </div>
     </div>
   );
