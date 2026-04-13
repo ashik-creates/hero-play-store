@@ -27,7 +27,7 @@ const Banner = () => {
           alt="banner image"
           width={800}
           height={400}
-          className="mx-auto max-h-[350px] object-contain"
+          className="mx-auto w-auto max-h-87.5 object-contain"
         ></Image>
       </div>
     </div>
